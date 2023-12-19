@@ -1,0 +1,150 @@
+@font-face {
+  font-family: riyad;
+  src: url(./fonts/Euclid\ Circular\ A\ Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: riyad;
+}
+.logocontainer {
+  width: 380px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 60px;
+}
+.headercon {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+.textSearch {
+  width: 250px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  outline: none;
+  padding-left: 40px;
+  background-image: url(./icon/search.png);
+  background-repeat: no-repeat;
+  background-position: 12px;
+}
+
+.textSearch::placeholder {
+  color: #bdbdbd;
+}
+
+.buttonConsultant {
+  width: 170px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #00bba4;
+  background-color: white;
+  color: #00bba4;
+  cursor: pointer;
+}
+.inputcontainer {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  padding-right: 80px;
+}
+.buttonConsultant:hover {
+  color: rgb(255, 0, 0);
+  border: 1px solid red;
+}
+.profilewrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.textcontainer {
+  display: flex;
+  column-gap: 30px;
+}
+.btn {
+  cursor: pointer;
+}
+.btn:hover {
+  color: red;
+}
+.image {
+  cursor: pointer;
+}
+
+.minianadiv {
+  display: flex;
+  row-gap: 30px;
+  flex-direction: column;
+  margin-top: 70px;
+}
+.minianadiv2 {
+  display: flex;
+  row-gap: 30px;
+  flex-direction: column;
+  margin-top: 70px;
+}
+.anadiv {
+  display: flex;
+  row-gap: 30px;
+  flex-direction: column;
+}
+.basyazi {
+  font-size: 20px;
+  font-weight: 900;
+  color: #333333;
+  font-family: riyad;
+}
+.homecontainer {
+  margin-left: 105px;
+}
+.homeyazisi {
+  color: #828282;
+}
+.privacyyazisi {
+  color: #333333;
+}
+.privacycontainer {
+  margin-top: 50px;
+  position: relative;
+  left: 29%;
+  width: 200px;
+}
+.textstyle {
+  max-width: 800px;
+}
+
+.endcontainer {
+  width: auto;
+  height: 100px;
+  margin-top: 100px;
+  
+}
+.endcontainer2 {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  margin-left: 35px;
+}
+.endcontainer3 {
+  display: flex;
+  gap: 30px;
+  position: absolute;
+  right: 120px;
+}
+.texttext {
+  cursor: pointer;
+}
+.maincontentwrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
